@@ -14,3 +14,6 @@
 # Example test.
 example.py
 *.png
+
+# Ignore build directory
+build/
