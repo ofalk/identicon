@@ -4,7 +4,7 @@ import string
 import random
 import io
 
-from PIL import Image
+from Pillow import Image
 
 import Identicon
 
