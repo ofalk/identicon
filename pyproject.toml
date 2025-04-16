@@ -1,0 +1,22 @@
+[project]
+name = "Identicon"
+version = "0.1.1"
+authors = [ { name = "Hansuk Hong", email = "flavono123@gmail.com" }]
+license = {file = "LICENSE.txt"}
+description = "A Python library for generating Github-like identicons"
+keywords = [
+    "identicon",
+    "image",
+    "profile",
+    "render",
+    "github",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/flavono123/identicon"
+
+[options]
+packages = "Identicon"
+install_requires = [
+    "Pillow",
+]
